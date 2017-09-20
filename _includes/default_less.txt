@@ -2,13 +2,14 @@
 This largely concerns Apple's Retina Display. The value here is used to adjust
 the multiple CSS rules. E.g., if scale is 2, font size is 28px instead of 14px.
 */
-@scale: 4;
+@scale: 2;
 
 #output-container {
   box-shadow:0 0 (@scale * 20px) rgba(0,0,0,0.3);
   margin:0;
   font-size:(@scale * 1em);
   line-height:1;
+  width:1024px;
 }
 
 #output-body {
